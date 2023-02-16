@@ -1,0 +1,20 @@
+/* body{
+  background-color: #141414;
+  margin: 0px;
+} */
+
+body {
+  cursor: url(src/assets/use160.cur), auto;
+  background-image: url(https://res.cloudinary.com/practicaldev/image/fetch/s--N1y_jUJW--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://thepracticaldev.s3.amazonaws.com/i/jtpbp4dmoudsk7y4cqsw.jpg);
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  /* top: 0;
+  left: 0;
+  bottom: 0; */
+}
+

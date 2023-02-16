@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Harlows+Solid+Regular&display=swap');
+@import url('https://fonts.cdnfonts.com/css/harry-potter');
+
+.one-character{
+  height:auto;
+  width: auto;
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight:bold;
+  font-family: "Copperplate Gothic";
+  color: #e5e5e5;
+  /* box-shadow: 0px 0px 25px #97e9ef; */
+  box-shadow: 0px 0px 20px #97e9ef, 0px 0px 40px #97e9ef, 0px 0px 60px #97e9ef, 0px 0px 80px #97e9ef;
+  padding: 10px;
+  transition: box-shadow 1s ease, transform 1s ease;
+  
+}
+
+.one-character:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 0px 50px #97e9ef;
+}
+
+.character-name{
+  font-family: 'Harry Potter', sans-serif;
+}
+
+.one-character img{
+  transition: opacity 1s ease;
+  width: 200px;
+  height: 300px;
+  border-radius: 15px;
+  
+}
+
+.one-character button{
+  background-color: transparent;
+  border: none;
+  font-size: 35px;
+  color: #a66d70;
+  cursor: pointer;
+  transition: font-size 2s ease;
+}
+
+.one-character button:hover{
+  font-size: 45px;
+}
+
+.one-character.gryffindor button{
+  color:#740001;
+}
+
+.one-character.hufflepuff button{
+  color:#FFC312;
+}
+
+.one-character.ravenclaw button{
+  color:#9f396e;
+}
+
+.one-character.slytherin button{
+  color:#348049;
+}
+
+.one-character.gryffindor {
+  box-shadow: 0px 20px 50px #740001;
+  transition: box-shadow 1s ease, transform 1s ease;
+}
+
+.one-character.hufflepuff {
+  box-shadow: 0px 0px 50px #FFC312;
+  transition: box-shadow 1s ease, transform 1s ease;
+}
+
+.one-character.ravenclaw {
+  box-shadow: 0px 0px 50px #9f396e;
+  transition: box-shadow 1s ease, transform 1s ease;
+}
+
+.one-character.slytherin {
+  box-shadow: 0px 0px 50px #348049;
+  transition: box-shadow 1s ease, transform 1s ease;
+}
+
